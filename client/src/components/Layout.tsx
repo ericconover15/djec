@@ -12,6 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { label: "Home", href: "/" },
     { label: "Services", href: "/#services" },
     { label: "About", href: "/#about" },
+    { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/booking" },
   ];
 
@@ -107,6 +108,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><Link href="/" className="hover:text-primary">Home</Link></li>
                 <li><Link href="/#services" className="hover:text-primary">Services</Link></li>
+                <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
                 <li><Link href="/booking" className="hover:text-primary">Book Consultation</Link></li>
               </ul>
             </div>
