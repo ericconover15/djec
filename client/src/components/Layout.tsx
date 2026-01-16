@@ -20,31 +20,29 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-20 items-center justify-between">
-          <Link href="/">
-            <a className="flex items-center gap-2">
-              <span className="font-serif text-2xl font-bold tracking-tight text-primary">
-                DJ EC
-              </span>
-              <span className="hidden md:inline-block text-sm font-light tracking-widest uppercase text-muted-foreground">
-                Weddings & Events
-              </span>
-            </a>
+          <Link href="/" className="flex items-center gap-2">
+            <span className="font-serif text-2xl font-bold tracking-tight text-primary">
+              DJ EC
+            </span>
+            <span className="hidden md:inline-block text-sm font-light tracking-widest uppercase text-muted-foreground">
+              Weddings & Events
+            </span>
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <Link key={item.href} href={item.href}>
-                <a
-                  className={cn(
-                    "text-sm font-medium transition-colors hover:text-primary",
-                    location === item.href
-                      ? "text-primary"
-                      : "text-muted-foreground"
-                  )}
-                >
-                  {item.label}
-                </a>
+              <Link 
+                key={item.href} 
+                href={item.href}
+                className={cn(
+                  "text-sm font-medium transition-colors hover:text-primary",
+                  location === item.href
+                    ? "text-primary"
+                    : "text-muted-foreground"
+                )}
+              >
+                {item.label}
               </Link>
             ))}
             <Link href="/booking">
@@ -68,13 +66,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="md:hidden border-t border-border bg-background p-4 shadow-lg absolute w-full">
             <nav className="flex flex-col gap-4">
               {navItems.map((item) => (
-                <Link key={item.href} href={item.href}>
-                  <a
-                    className="text-base font-medium text-foreground hover:text-primary py-2"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {item.label}
-                  </a>
+                <Link 
+                  key={item.href} 
+                  href={item.href}
+                  className="text-base font-medium text-foreground hover:text-primary py-2"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {item.label}
                 </Link>
               ))}
               <Link href="/booking">
@@ -107,9 +105,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="space-y-4">
               <h4 className="font-medium text-foreground">Quick Links</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><Link href="/"><a className="hover:text-primary">Home</a></Link></li>
-                <li><Link href="/#services"><a className="hover:text-primary">Services</a></Link></li>
-                <li><Link href="/booking"><a className="hover:text-primary">Book Consultation</a></Link></li>
+                <li><Link href="/" className="hover:text-primary">Home</Link></li>
+                <li><Link href="/#services" className="hover:text-primary">Services</Link></li>
+                <li><Link href="/booking" className="hover:text-primary">Book Consultation</Link></li>
               </ul>
             </div>
 
