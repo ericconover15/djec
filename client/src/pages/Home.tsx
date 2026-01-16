@@ -135,7 +135,7 @@ export default function Home() {
               </p>
               <ul className="space-y-3">
                 {[
-                  "High-fidelity PA Speakers",
+                  "JBL EON 700 Series Speakers",
                   "Wireless Microphones for Toasts",
                   "LED Dance Floor Lighting",
                   "Atmospheric Fog Machine",
