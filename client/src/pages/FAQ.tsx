@@ -30,6 +30,10 @@ export default function FAQ() {
     {
       question: "How do we book you?",
       answer: "It's simple! Click the 'Book Consultation' button to schedule a free 30-minute chat. We'll discuss your details, and if it's a good fit, I'll send over a contract to secure your date."
+    },
+    {
+      question: "¿Se habla español?",
+      answer: "¡Sí!"
     }
   ];
 
