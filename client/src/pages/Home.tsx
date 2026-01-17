@@ -134,8 +134,8 @@ export default function Home() {
               <ul className="space-y-3">
                 {[
                   "JBL EON 700 Series Speakers",
-                  "Wireless Microphones for Toasts",
-                  "LED Dance Floor Lighting",
+                  "Wireless Microphone for Toasts",
+                  "Dance Floor Lighting",
                   "Atmospheric Fog Machine",
                   "Professional DJ Controller",
                   "Backup Equipment On-Site"
