@@ -140,8 +140,7 @@ export default function Home() {
                   "Wireless Microphone for Toasts",
                   "Dance Floor Lighting",
                   "Atmospheric Fog Machine",
-                  "Professional DJ Controller",
-                  "Backup Equipment On-Site"
+                  "Professional DJ Controller"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-foreground">
                     <div className="w-1.5 h-1.5 rounded-full bg-primary" />
