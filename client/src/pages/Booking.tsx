@@ -61,10 +61,10 @@ export default function Booking() {
           </div>
         </div>
 
-        <div className="bg-card rounded-xl shadow-sm border border-border overflow-hidden min-h-[700px]">
+        <div className="bg-card rounded-xl shadow-sm border border-border overflow-hidden h-[800px] md:h-[900px]">
           {/* Calendly inline widget begin */}
           <div 
-            className="calendly-inline-widget w-full h-full min-h-[700px]" 
+            className="calendly-inline-widget w-full h-full" 
             data-url="https://calendly.com/eric-conover-15/30min?hide_gdpr_banner=1&background_color=ffffff&text_color=1a1a1a&primary_color=4a7c59" 
           />
           {/* Calendly inline widget end */}
