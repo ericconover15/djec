@@ -22,10 +22,7 @@ export default function FAQ() {
       question: "Do you provide your own equipment?",
       answer: "Yes, I bring everything needed for a professional setup, including high-end JBL EON 700 speakers, wireless microphones, dance floor lighting, and a fog machine. You don't need to rent anything extra."
     },
-    {
-      question: "What happens if we need you to stay longer?",
-      answer: "The party doesn't have to stop! If you decide you want to extend the time on the night of the event, we can discuss an overtime rate to keep the music going."
-    },
+
     {
       question: "Do you also emcee the event?",
       answer: "Yes, I act as the Master of Ceremonies (MC) for your event. I'll handle all the announcements, introduce the wedding party, and keep the timeline moving smoothly so you can relax and enjoy the night."
