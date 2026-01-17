@@ -16,7 +16,7 @@ export default function FAQ() {
     },
     {
       question: "How far do you travel?",
-      answer: "I am happy to travel anywhere for your event! I'm based in Utah County, and travel within the county is included in my standard rate. For locations outside of Utah County, I'm more than willing to come to you, but please note that an added travel fee will apply to cover the distance."
+      answer: "I am happy to travel anywhere for your event! I'm based in Utah County, and travel within Utah County, Salt Lake County, and neighboring areas is included in my standard rate. For locations further away, I'm more than willing to come to you, but please note that an added travel fee will apply to cover the distance."
     },
     {
       question: "Do you provide your own equipment?",
