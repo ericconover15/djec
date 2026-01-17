@@ -47,8 +47,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             ))}
             <Link href="/booking">
-              <Button variant="default" size="sm" className="font-serif">
-                Book Consultation
+              <Button variant="default" size="sm" className="font-serif" asChild>
+                <span>Book Consultation</span>
               </Button>
             </Link>
           </nav>
@@ -77,8 +77,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </Link>
               ))}
               <Link href="/booking">
-                <Button className="w-full font-serif" onClick={() => setIsMenuOpen(false)}>
-                  Book Consultation
+                <Button className="w-full font-serif" onClick={() => setIsMenuOpen(false)} asChild>
+                  <span>Book Consultation</span>
                 </Button>
               </Link>
             </nav>

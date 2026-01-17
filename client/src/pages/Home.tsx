@@ -25,8 +25,8 @@ export default function Home() {
           </p>
           <div className="pt-4">
             <Link href="/booking">
-              <Button size="lg" className="font-serif text-lg px-8 py-6 bg-white text-black hover:bg-white/90 border-none">
-                Book Your Date
+              <Button size="lg" className="font-serif text-lg px-8 py-6 bg-white text-black hover:bg-white/90 border-none" asChild>
+                <span>Book Your Date</span>
               </Button>
             </Link>
           </div>
@@ -164,8 +164,8 @@ export default function Home() {
             Let's chat about your vision. Schedule a free consultation to discuss details, availability, and pricing.
           </p>
           <Link href="/booking">
-            <Button size="lg" variant="secondary" className="font-serif text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all">
-              Schedule Free Consultation <ArrowRight className="ml-2 w-5 h-5" />
+            <Button size="lg" variant="secondary" className="font-serif text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all" asChild>
+              <span>Schedule Free Consultation <ArrowRight className="ml-2 w-5 h-5" /></span>
             </Button>
           </Link>
         </div>

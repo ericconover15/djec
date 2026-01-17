@@ -71,8 +71,8 @@ export default function FAQ() {
           I'd love to chat and answer any other questions you might have about your specific event.
         </p>
         <Link href="/booking">
-          <Button size="lg" className="font-serif px-8">
-            Schedule a Free Chat
+          <Button size="lg" className="font-serif px-8" asChild>
+            <span>Schedule a Free Chat</span>
           </Button>
         </Link>
       </div>
