@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="relative aspect-[4/5] md:aspect-square rounded-2xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="/images/dj-mixing-closeup.jpg" 
+              src="/images/eric-conover-dj.jpg" 
               alt="DJ mixing at an event" 
               className="w-full h-full object-cover"
             />
