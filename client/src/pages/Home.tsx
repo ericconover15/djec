@@ -32,7 +32,7 @@ export default function Home() {
       </section>
 
       {/* Introduction / About Snippet */}
-      <section id="about" className="section-padding bg-background">
+      <section className="section-padding bg-background">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <span className="text-primary font-medium tracking-widest uppercase text-sm">About DJ EC</span>
@@ -40,17 +40,20 @@ export default function Home() {
               More Than Just Music
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a Utah County local passionate about creating the perfect atmosphere for your special day. 
-              Whether it's a wedding, corporate event, or private party, I bring professional equipment, 
-              expert planning, and the right energy to keep your guests engaged.
+              Hey! My name is Eric Conover. I was born and raised in Utah and have always valued connecting with people. 
+              From being the "iTunes kid" to a professional DJ, music has always been my passion.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My goal is simple: to ensure everyone has the best experience possible. From the first consultation 
-              to the last song of the night, I'm with you every step of the way.
+              My favorite part of this job is looking out on the dance floor and seeing people smiling and having fun together.
             </p>
-            <div className="flex items-center gap-2 text-foreground font-medium">
-              <MapPin className="text-primary" />
-              <span>Based in Utah County • Willing to Travel</span>
+            <div className="flex flex-col gap-4 pt-2">
+              <div className="flex items-center gap-2 text-foreground font-medium">
+                <MapPin className="text-primary" />
+                <span>Based in Utah County • Willing to Travel</span>
+              </div>
+              <Link href="/about" className="inline-flex items-center text-primary font-medium hover:underline">
+                Read my full story <ArrowRight className="ml-2 w-4 h-4" />
+              </Link>
             </div>
           </div>
           <div className="relative aspect-[4/5] md:aspect-square rounded-2xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
