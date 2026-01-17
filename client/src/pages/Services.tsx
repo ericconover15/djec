@@ -62,27 +62,32 @@ export default function Services() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="group bg-card rounded-xl border border-border overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
-                <div className="h-48 overflow-hidden relative">
-                  <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors z-10" />
-                  <img 
-                    src={service.image} 
-                    alt={service.title} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
-                </div>
-                <div className="p-8 flex-1 flex flex-col">
-                  <div className="mb-6 p-3 bg-primary/5 rounded-lg w-fit group-hover:bg-primary/10 transition-colors">
-                    {service.icon}
+              <Link key={index} href="/booking" className="block h-full">
+                <div className="group bg-card rounded-xl border border-border overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full cursor-pointer">
+                  <div className="h-48 overflow-hidden relative">
+                    <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors z-10" />
+                    <img 
+                      src={service.image} 
+                      alt={service.title} 
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
                   </div>
-                  <h3 className="font-serif text-2xl font-bold mb-3 text-foreground group-hover:text-primary transition-colors">
-                    {service.title}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed mb-6 flex-1">
-                    {service.description}
-                  </p>
+                  <div className="p-8 flex-1 flex flex-col">
+                    <div className="mb-6 p-3 bg-primary/5 rounded-lg w-fit group-hover:bg-primary/10 transition-colors">
+                      {service.icon}
+                    </div>
+                    <h3 className="font-serif text-2xl font-bold mb-3 text-foreground group-hover:text-primary transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed mb-6 flex-1">
+                      {service.description}
+                    </p>
+                    <div className="mt-4 flex items-center text-primary font-medium group-hover:translate-x-2 transition-transform">
+                      Book This Service <ArrowRight className="ml-2 w-4 h-4" />
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
