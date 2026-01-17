@@ -84,7 +84,7 @@ export default function Home() {
               </div>
               <h3 className="font-serif text-2xl font-bold mb-3">Professional Sound</h3>
               <p className="text-muted-foreground">
-                Crystal clear audio with high-end speakers and subwoofers suitable for both intimate gatherings and large dance floors.
+                Crystal clear audio with high-end speakers suitable for both intimate gatherings and large dance floors.
               </p>
             </div>
 
