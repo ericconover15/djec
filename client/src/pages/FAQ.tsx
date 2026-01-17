@@ -70,10 +70,8 @@ export default function FAQ() {
         <p className="text-muted-foreground">
           I'd love to chat and answer any other questions you might have about your specific event.
         </p>
-        <Link href="/booking">
-          <Button size="lg" className="font-serif px-8" asChild>
-            <span>Schedule a Free Chat</span>
-          </Button>
+        <Link href="/booking" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 font-serif">
+          Schedule a Free Chat
         </Link>
       </div>
     </div>

@@ -46,10 +46,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 {item.label}
               </Link>
             ))}
-            <Link href="/booking">
-              <Button variant="default" size="sm" className="font-serif" asChild>
-                <span>Book Consultation</span>
-              </Button>
+            <Link href="/booking" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-3 font-serif">
+              Book Consultation
             </Link>
           </nav>
 
@@ -76,10 +74,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   {item.label}
                 </Link>
               ))}
-              <Link href="/booking">
-                <Button className="w-full font-serif" onClick={() => setIsMenuOpen(false)} asChild>
-                  <span>Book Consultation</span>
-                </Button>
+              <Link href="/booking" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full font-serif" onClick={() => setIsMenuOpen(false)}>
+                Book Consultation
               </Link>
             </nav>
           </div>

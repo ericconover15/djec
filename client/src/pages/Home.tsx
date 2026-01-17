@@ -24,10 +24,8 @@ export default function Home() {
             Professional DJ & Emcee services for weddings and events in Utah County and beyond.
           </p>
           <div className="pt-4">
-            <Link href="/booking">
-              <Button size="lg" className="font-serif text-lg px-8 py-6 bg-white text-black hover:bg-white/90 border-none" asChild>
-                <span>Book Your Date</span>
-              </Button>
+            <Link href="/booking" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 font-serif text-lg px-8 py-6 bg-white text-black hover:bg-white/90 border-none">
+              Book Your Date
             </Link>
           </div>
         </div>
@@ -163,10 +161,8 @@ export default function Home() {
           <p className="text-xl max-w-2xl mx-auto text-primary-foreground/90">
             Let's chat about your vision. Schedule a free consultation to discuss details, availability, and pricing.
           </p>
-          <Link href="/booking">
-            <Button size="lg" variant="secondary" className="font-serif text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all" asChild>
-              <span>Schedule Free Consultation <ArrowRight className="ml-2 w-5 h-5" /></span>
-            </Button>
+          <Link href="/booking" className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-11 font-serif text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all">
+            Schedule Free Consultation <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
         </div>
       </section>
