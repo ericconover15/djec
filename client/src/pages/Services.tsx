@@ -26,19 +26,19 @@ export default function Services() {
       title: "Country & Latin Dancing",
       description: "Specialized playlists for line dancing, two-step, salsa, bachata, and more. I know the tracks that get dancers on the floor and keep them there all night long.",
       icon: <Globe className="w-8 h-8 text-primary" />,
-      image: "/images/hero-wedding-dance.jpg"
+      image: "/images/country-latin-dancing.jpg"
     },
     {
       title: "Quinceañeras",
       description: "A coming-of-age celebration needs a DJ who understands the traditions and the party. I mix the best of Latin hits and modern favorites for a night the whole family will enjoy.",
       icon: <Star className="w-8 h-8 text-primary" />,
-      image: "/images/consultation-planning.jpg"
+      image: "/images/quinceanera-party.jpg"
     },
     {
       title: "Themed Nights (80's, etc.)",
       description: "Want to travel back in time? I curate authentic playlists for 80s nights, disco parties, and other themed events to create a totally immersive musical experience.",
       icon: <Music className="w-8 h-8 text-primary" />,
-      image: "/images/dj-mixing-closeup.jpg"
+      image: "/images/themed-party-80s.jpg"
     }
   ];
 
