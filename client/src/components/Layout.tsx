@@ -22,7 +22,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/images/dj-ec-logo.png" alt="DJ EC Logo" className="h-12 w-auto" />
+            <span className="font-serif text-2xl font-bold tracking-tight text-primary">
+              DJ EC
+            </span>
+            <span className="hidden md:inline-block text-sm font-light tracking-widest uppercase text-muted-foreground">
+              Weddings & Events
+            </span>
           </Link>
 
           {/* Desktop Nav */}
