@@ -28,6 +28,7 @@ function Router() {
   );
 }
 
+// Force new checkpoint for publishing
 function App() {
   return (
     <ErrorBoundary>
